@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+body {
+  background-image: url("https://images.ctfassets.net/hrltx12pl8hq/1fR5Y7KaK9puRmCDaIof7j/09e2b2b9eaf42d450aba695056793607/vector1.jpg");
+   background-repeat:no-repeat;
+  background-size: cover;
+height: 90vh;
+  
+}
+#outer
+{
+    height: 760px;
+    width: 1500px;
+}
+#Navigation
+{
+    height: 50px;
+    width: 1500px;
+
+    float: left;
+    background-color: floralwhite;
+}
+#ul
+{
+    list-style-type:none;
+    position: sticky;
+}
+#Navigation ul li
+{
+      display: inline;
+  color:orange;
+    margin: 10px;
+    padding: 16px; 
+}
+#Navigation ul li:hover
+{
+    background-color: black;
+}
+#left
+{
+    height: 700px;
+    width: 700px;
+    float: left;
+}
+#right
+{
+    height: 700px;
+    width: 700px;
+    float: right;
+}
+
+
+.form {
+  border: 3px solid #f1f1f1;
+  height: 450px;
+  width: 300px;
+  float: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: flexbox;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 2px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 30px 0 10px 0;
+}
+
+img.avatar {
+  width: 7%;
+  border-radius: 10%;
+}
+
+.container {
+  padding: 16px;
+}
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
+</style>
+    <title></title>
+</head>
+<body>
+    <div id="outer">
+        <div id="Navigation">
+        <ul>
+            <center>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a class="active"
+        href="#about">About</a></li>
+        </center>
+        </ul>
+        </div>
+        <div id="left">
+            <h1 style="text-emphasis-color: white;" >Welcome To Our</h1>
+            <h1 >Landing Page</h1>
+        
+    <p><h4 text-color="white">In the realm of online marketing and web design,<br/> The landing page holds a crucial position as a gateway to success.<br/> A landing page is a standalone web page specifically created with a single purpose in mind: to convert visitors into leads or customers.<br/> Unlike regular web pages that serve multiple functions, <br/>a landing page focuses on a specific marketing campaign, product, or offer.<br/>
+
+The primary goal of a landing page is to prompt visitors to take a particular action,<br/> such as signing up for a newsletter,<br/> making a purchase, downloading a resource, or filling out a form.</h4></center>
+        
+<button>Learn more</button>
+</div>
+        <div id="right">
+
+      <div class="form">
+        <center>
+  <form action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <img src="https://cdn2.iconfinder.com/data/icons/essenstial-ultimate-ui/64/avatar-512.png" alt="Avatar" class="avatar">
+    </div>
+  
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+          
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+  
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+</center>
+  </form>
+  </div>
+
+
+</body>
+</html>
